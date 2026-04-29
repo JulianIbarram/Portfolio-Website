@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            padding-top: 20px;
+        }
+        nav {
+            width: 100%;
+            background-color: #333;
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .nav-button {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #555;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .nav-button:hover {
+            background-color: #777;
+        }
+        .header-section {
+            text-align: center;
+            margin: 80px auto 40px;
+            max-width: 900px;
+        }
+        .header-section h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin: 0;
+            font-weight: bold;
+        }
+        .header-section p {
+            font-size: 1.2em;
+            color: #666;
+            margin: 10px 0;
+        }
+        .project-content {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            flex-direction: row-reverse;
+        }
+        .text-content {
+            flex: 1;
+        }
+        .text-content p {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.6;
+            margin: 0 0 15px;
+        }
+        .image-content {
+            flex: 1;
+            text-align: center;
+        }
+        .image-content img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+        }
+        .button-section {
+            text-align: center;
+            margin: 40px auto;
+            max-width: 1000px;
+        }
+        .go-back {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .go-back:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="nav-button">Home</a>
+        <a href="workExperience.html" class="nav-button">Work Experience</a>
+        <a href="projects.html" class="nav-button">Projects</a>
+        <a href="testimonials.html" class="nav-button">Testimonials</a>
+        <a href="getInTouch.html" class="nav-button">Get in Touch</a>
+    </nav>
+    <div class="header-section">
+        <h1>Two-Tier Client-Server Application</h1>
+        <p>Designed and implemented a two-tier client-server application using Java and MySQL, enabling secure execution of dynamic SQL commands through a GUI interface.</p>
+    </div>
+    <div class="project-content">
+        <div class="text-content">
+            <p>Designed and developed a two-tier client-server application using Java, creating a desktop GUI that allows users to securely interact with a MySQL database.</p>
+            <p>Implemented JDBC connectivity to enable seamless communication between the client application and the database, supporting the execution of 50+ dynamic SQL commands, including both DDL (schema creation/modification) and DML (data manipulation) operations.</p>
+            <p>Engineered secure authentication mechanisms to validate user credentials before granting access, ensuring that only authorized users could execute database queries.</p>
+            <p>Built a multi-user architecture with role-based access control, supporting four distinct roles (root, two client users, and an accountant), each with clearly defined permission levels.</p>
+            <p>Configured access restrictions using external properties files, allowing flexible management of user credentials and privileges without modifying core application code.</p>
+            <p>Developed backend logic to process incoming SQL queries, handle exceptions, and return accurate results to the front end in real time, ensuring a responsive and reliable user experience.</p>
+            <p>Implemented dynamic result rendering within the GUI, allowing users to view query outputs in structured formats immediately after execution.</p>
+            <p>Created a logging system to track and store 100+ database interactions, improving transparency, debugging capability, and auditability across concurrent user sessions.</p>
+            <p>Ensured stability and performance when handling multiple users simultaneously, demonstrating strong understanding of database integration, client-server architecture, and concurrent system design.</p>
+        </div>
+        <div class="image-content">
+            <img src="sql.png" alt="Project Image">
+        </div>
+    </div>
+    <div class="button-section">
+        <a href="projects.html" class="go-back">< Go back</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Experience Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            padding-top: 20px;
+        }
+        nav {
+            width: 100%;
+            background-color: #333;
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .nav-button {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #555;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .nav-button:hover {
+            background-color: #777;
+        }
+        .header-section {
+            text-align: center;
+            margin: 80px auto 40px;
+            max-width: 900px;
+        }
+        .header-section h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin: 0;
+            font-weight: bold;
+        }
+        .header-section p {
+            font-size: 1.2em;
+            color: #666;
+            margin: 10px 0;
+        }
+        .experience-content {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .text-content {
+            flex: 1;
+        }
+        .text-content p {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.6;
+            margin: 0 0 15px;
+        }
+        .image-content {
+            flex: 1;
+            text-align: center;
+        }
+        .image-content img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+        }
+        .button-section {
+            text-align: center;
+            margin: 40px auto;
+            max-width: 1000px;
+        }
+        .go-back {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .go-back:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="nav-button">Home</a>
+        <a href="workExperience.html" class="nav-button">Work Experience</a>
+        <a href="projects.html" class="nav-button">Projects</a>
+        <a href="testimonials.html" class="nav-button">Testimonials</a>
+        <a href="getInTouch.html" class="nav-button">Get in Touch</a>
+    </nav>
+    <div class="header-section">
+        <h1>Knight Light Web Developer</h1>
+        <p>Designed and developed a professional website for Knight Light to showcase drone show services and attract potential clients.</p>
+    </div>
+    <div class="experience-content">
+        <div class="text-content">
+            <p>Developed an immersive web feature for Knight Light that used a JavaScript API to create a virtual field environment and render a panoramic view of the FBC Mortgage Stadium, allowing users to experience drone show simulations from an eye-level perspective.</p>
+            <p>Designed the panorama system to give clients and team members a more realistic viewing angle, significantly improving how drone formations, spacing, and visual effects could be evaluated before live deployment.</p>
+            <p>Streamlined the selection process for 50+ prebuilt drone show presets by enabling customers to preview simulations directly inside the virtual stadium environment and quickly choose their preferred show concepts.</p>
+            <p>Reduced development and revision time by eliminating the need for repeated manual adjustments, saving the project hours of testing and helping the team move faster from concept to client approval.</p>
+            <p>Created the panoramic stadium model in Blender, optimizing it for web performance before integrating the exported asset into the JavaScript-based simulation platform.</p>
+            <p>Connected 3D assets with front-end functionality to ensure smooth rendering, responsive controls, and seamless interaction between the panoramic environment and drone show presets.</p>
+            <p>Combined skills in web development, 3D modeling, API integration, user experience design, and client-focused problem solving to deliver a polished and practical simulation tool.</p>
+        </div>
+        <div class="image-content">
+            <img src="drone.jpg" alt="Work Experience Image">
+        </div>
+    </div>
+    <div class="button-section">
+        <a href="workExperience.html" class="go-back">< Go back</a>
+    </div>
+</body>
+</html>

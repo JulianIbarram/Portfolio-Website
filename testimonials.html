@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            padding-top: 20px;
+        }
+        nav {
+            width: 100%;
+            background-color: #333;
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .nav-button {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #555;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .nav-button:hover {
+            background-color: #777;
+        }
+        .header-section {
+            text-align: center;
+            margin: 80px auto 40px;
+            max-width: 800px;
+        }
+        .header-section h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin: 0;
+        }
+        .header-section p {
+            font-size: 1.2em;
+            color: #666;
+            margin: 10px 0;
+        }
+        .testimonials {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .testimonial {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .quote {
+            font-size: 1em;
+            color: #333;
+            margin: 0 0 20px;
+            font-style: italic;
+        }
+        .client {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .client img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .client strong {
+            font-size: 1.1em;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="nav-button">Home</a>
+        <a href="workExperience.html" class="nav-button">Work Experience</a>
+        <a href="projects.html" class="nav-button">Projects</a>
+        <a href="testimonials.html" class="nav-button">Testimonials</a>
+        <a href="getInTouch.html" class="nav-button">Get in Touch</a>
+    </nav>
+    <div class="header-section">
+        <h1>Testimonials</h1>
+        <p>Hear what clients and colleagues have to say about working with me.</p>
+    </div>
+    <div class="testimonials">
+        <div class="testimonial">
+            <p class="quote">"Working with Julian on our drone show simulation was an excellent experience. He delivered a polished and highly interactive website that captured exactly what we envisioned, while remaining responsive and easy to use. His attention to detail, technical skill, and ability to meet deadlines made him someone we could rely on throughout the project."</p>
+            <div class="client">
+                <img src="andrew.png" alt="Client 1">
+                <strong>Andrew Caulfield</strong>
+            </div>
+        </div>
+        <div class="testimonial">
+            <p class="quote">"Julian did an outstanding job developing our two-tier client-server application. He created a dependable system that connected the front end and database seamlessly, with strong performance and smooth functionality. His professionalism and problem-solving ability gave us confidence that the project was in capable hands from start to finish."</p>
+            <div class="client">
+                <img src="mark.png" alt="Client 2">
+                <strong>Mark Llewellyn</strong>
+            </div>
+        </div>
+        <div class="testimonial">
+            <p class="quote">"Julian impressed us with his performance during the Horse Plinko cybersecurity challenge. He approached each obstacle with determination, technical knowledge, and a calm mindset under pressure. His ability to analyze problems quickly and produce effective solutions showed that he is both highly skilled and dependable."</p>
+            <div class="client">
+                <img src="oliver.png" alt="Client 3">
+                <strong>Oliver Mcdaniel</strong>
+            </div>
+        </div>
+        <div class="testimonial">
+            <p class="quote">"Julian exceeded expectations with the Pokémon Team Builder website he created for us. The platform was engaging, well-designed, and functioned smoothly, making it enjoyable for users while providing all the features we requested. His creativity, consistency, and commitment to quality made him a pleasure to work with.    "</p>
+            <div class="client">
+                <img src="sarah.png" alt="Client 4">
+                <strong>Sarah Johnson</strong>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

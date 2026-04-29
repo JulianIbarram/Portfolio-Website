@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            padding-top: 20px;
+        }
+        nav {
+            width: 100%;
+            background-color: #333;
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .nav-button {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #555;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .nav-button:hover {
+            background-color: #777;
+        }
+        .header-section {
+            text-align: center;
+            margin: 80px auto 40px;
+            max-width: 900px;
+        }
+        .header-section h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin: 0;
+            font-weight: bold;
+        }
+        .header-section p {
+            font-size: 1.2em;
+            color: #666;
+            margin: 10px 0;
+        }
+        .project-content {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .text-content {
+            flex: 1;
+        }
+        .text-content p {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.6;
+            margin: 0 0 15px;
+        }
+        .image-content {
+            flex: 1;
+            text-align: center;
+        }
+        .image-content img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+        }
+        .button-section {
+            text-align: center;
+            margin: 40px auto;
+            max-width: 1000px;
+        }
+        .go-back {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .go-back:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="nav-button">Home</a>
+        <a href="workExperience.html" class="nav-button">Work Experience</a>
+        <a href="projects.html" class="nav-button">Projects</a>
+        <a href="testimonials.html" class="nav-button">Testimonials</a>
+        <a href="getInTouch.html" class="nav-button">Get in Touch</a>
+    </nav>
+    <div class="header-section">
+        <h1>Pokemon Team Builder Website</h1>
+        <p>Developed a Pokémon Team Builder website that allows users to create and customize teams based on type matchups, stats, and overall synergy within the Pokémon universe.</p>
+    </div>
+    <div class="project-content">
+        <div class="text-content">
+            <p>Built a dynamic team-building platform for the Pokémon universe using modern JavaScript, focusing on performance, responsiveness, and a smooth user experience.</p>
+            <p>Implemented asynchronous data retrieval using the fetch() API to query the PokéAPI, efficiently parsing JSON responses and updating the interface based on real-time user input.</p>
+            <p>Engineered a fully dynamic UI capable of rendering all 1,028+ Pokémon assets, including sprites and audio, without requiring page reloads, ensuring a seamless and interactive browsing experience.</p>
+            <p>Designed and integrated interactive move-selection dropdowns that update instantly, allowing users to experiment with different strategies and configurations in real time.</p>
+            <p>Developed a robust client-side state management system to enable users to build, modify, and persist custom Pokémon teams, with selections reflected immediately through efficient DOM manipulation.</p>
+            <p>Optimized performance by minimizing redundant API calls and managing data locally where appropriate, resulting in faster load times and smoother interactions.</p>
+            <p>Focused on clean UI/UX design principles to make the application intuitive for both casual players and competitive users while maintaining scalability for future feature expansion.</p>
+        </div>
+        <div class="image-content">
+            <img src="Poke.png" alt="Project Image">
+        </div>
+    </div>
+    <div class="button-section">
+        <a href="projects.html" class="go-back">< Go back</a>
+    </div>
+</body>
+</html>

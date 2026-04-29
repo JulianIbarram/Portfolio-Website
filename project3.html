@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            padding-top: 20px;
+        }
+        nav {
+            width: 100%;
+            background-color: #333;
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .nav-button {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #555;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .nav-button:hover {
+            background-color: #777;
+        }
+        .header-section {
+            text-align: center;
+            margin: 80px auto 40px;
+            max-width: 900px;
+        }
+        .header-section h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin: 0;
+            font-weight: bold;
+        }
+        .header-section p {
+            font-size: 1.2em;
+            color: #666;
+            margin: 10px 0;
+        }
+        .project-content {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .text-content {
+            flex: 1;
+        }
+        .text-content p {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.6;
+            margin: 0 0 15px;
+        }
+        .image-content {
+            flex: 1;
+            text-align: center;
+        }
+        .image-content img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+        }
+        .button-section {
+            text-align: center;
+            margin: 40px auto;
+            max-width: 1000px;
+        }
+        .go-back {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .go-back:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="nav-button">Home</a>
+        <a href="workExperience.html" class="nav-button">Work Experience</a>
+        <a href="projects.html" class="nav-button">Projects</a>
+        <a href="testimonials.html" class="nav-button">Testimonials</a>
+        <a href="getInTouch.html" class="nav-button">Get in Touch</a>
+    </nav>
+    <div class="header-section">
+        <h1>Multi-Level Database Management System Website</h1>
+        <p>Developed a multi-level database management system website that enables users to securely interact with structured data through a web interface, integrating front-end design with backend database functionality.</p>
+    </div>
+    <div class="project-content">
+        <div class="text-content">
+            <p>Designed and deployed a multi-level database management system website using MySQL Workbench and Apache Tomcat, enabling users to interact with a relational database through an HTML/JSP-based interface.</p>
+            <p>Developed a secure login system that authenticates users and routes them to role-specific dashboards, ensuring a structured and controlled user experience.</p>
+            <p>Implemented role-based access control across multiple account types, including root, client, accountant, and data entry users, each with clearly defined permissions and capabilities.</p>
+            <p>Enabled root users to perform full database administration tasks, including creating, updating, and deleting records across all tables.</p>
+            <p>Configured client users with read-only access, allowing them to safely view database content without risking unintended modifications.</p>
+            <p>Built functionality for accountant users to specifically access and review order-related data, supporting financial tracking and reporting needs.</p>
+            <p>Designed data entry user capabilities to create and manage order records, ensuring accurate and efficient data input into the system.</p>
+            <p>Integrated JSP with backend database operations to dynamically process user requests, execute SQL queries, and render results in real time.</p>
+            <p>Ensured smooth communication between the web server and database, demonstrating strong understanding of web application architecture, database integration, and multi-user system design.</p>
+        </div>
+        <div class="image-content">
+            <img src="tomcat.png" alt="Project Image">
+        </div>
+    </div>
+    <div class="button-section">
+        <a href="projects.html" class="go-back">< Go back</a>
+    </div>
+</body>
+</html>
